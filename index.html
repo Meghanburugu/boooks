@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link href="./style.css" rel="stylesheet">
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=devic-width,intial-scale=1.0"> 
+        <meta http-equiv="X-UA-Compatible" content="ie-edge">
+        <titel>Navigation</titel>
+        <style>
+            .navbar{
+                background-color: black;
+            }
+            .navbar ul{
+                overflow: auto;
+            }
+            .navbar li{
+                float: left;
+                list-style: none;
+                margin: 13px 20px;
+                
+            }
+            .navbar li a{
+                padding: 15px 60px;
+                text-decoration: none;
+                color:white;
+            }
+        </style>
+        </header>
+       <body>
+        <header>
+            <nav class="navbar">
+            <ul>
+           <h3><li><a href="#">Library System</a></li></h3>
+            <li><a href="#">Books</a></li>
+            <li><a href="#">Register</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Logout</a></li>
+
+            </ul>
+            </nav>      
+            <main>
+            <section id="Books" class="section ">
+            <div>
+            <h4 class="div-first">Books</h4>
+            <table class="div-first">
+    
+
+            <table border="1"width="1200">
+            <tr>
+                <th rowspan="3">  Book ID</th>
+                <th rowspan="3">Title</th>
+                <th rowspan="3">Author</th>
+                <th rowspan="3">Genre</th>
+                <th rowspan="3">Availablity</th>
+            </tr>
+            <tbody>
+                <tr>
+                  <td>1</td>
+                  <td ><span class= "title"> Girl Meets Boy</span><table class="undertr">
+                    <tr  ><td>Publication Date: 2000</td></tr>
+                    <tr><td>Page Count:250</td></tr>
+                    <tr><td>ISBN :123-4567890123</td></tr>
+                  </table>
+                  </td>
+                  
+                  <td>Derek Stranger</td>
+                  <td>Love story</td>
+                  <td>Available</td>
+                </tr>
+                <tr><td>2</td>
+                  <td ><span class="title">The Adventuresof Tom Sawyer</span><table class="undertr">
+                      
+                      <tr><td>Publication Date: 2000</td></tr>
+                      <tr><td>Page Count:250</td></tr>
+                      <tr><td>ISBN :123-4567890123</td></tr>
+                    </table>
+                    </td>
+                  <td>Mark Twain</td>
+                  <td>Adventures</td>
+                  <td>Unvailable</td>
+                </tr>
+                <tr>
+                  <td>3</td>
+                  <td ><span class="title">Baahubali</span><table class="undertr">
+                      <tr><td>Publication Date: 2000</td></tr>
+                      <tr><td>Page Count:250</td></tr>
+                      <tr><td>ISBN :123-4567890123</td></tr>
+                    </table>
+                    </td>
+                  <td>S.S.Rajamouli</td>
+                  <td>History</td>
+                  <td>Available</td>
+                </tr>
+                    </table>
+                    </td>
+                  
+              </tbody>
+              </table>
+              </div>
+          </section>
+          <h1 id="Register">Register</h1>
+          <form method="post" id="register">
+            <div>
+            <label for="name">First Name:</label><br>
+            <input type="name" name="name" id="name" placeholder="Enter your First Name" required>
+            </div>
+            <div>
+              <label for="name">Last Name:</label><br>
+              <input type="name" name="name" id="name" placeholder="Enter your Last Name" required>
+            </div>
+            <div>
+              <label for="email">Email:</label><br>
+              <input type="email" name="email" id="email" placeholder="Enter your Email Address" required>
+            </div>
+            <div>
+              <label for="dob">Date of Birth:</label><br>
+              <input type="date" name="dob" id="dob" placeholder="Enter your Date Of Birth " required>
+            </div>
+            <div>
+              <label for="age">Age:</label><br>
+              <input type="number" name="age" id="age" min="5"  max ="100" placeholder="Enter Your Age" required>
+            </div>
+            <div>
+              <label for="password">Password:</label><br>
+              <input type="password" name="password" id="password" placeholder="Enter Your Password" required>
+            </div>
+            <div>
+              <label for="password">Confirm Your Password:</label><br>
+              <input type="password" name="password" id="password" placeholder="Confirm Your Password" required>
+            </div>
+            <br>
+            <button type="submit">Register</button>
+        
+          </form>
+        
+        
+        </body>
+        </html>
+        
+    </header>
+    
+      </main>
+    
+       </html>
